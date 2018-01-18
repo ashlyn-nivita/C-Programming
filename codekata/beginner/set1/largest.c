@@ -2,19 +2,18 @@
 int main(void)
 {
 int a,b,c;
-printf("Enter three numbers:");
 scanf("%d",&a);
 scanf("%d",&b);
 scanf("%d",&c);
 if(a>b&&a>c)
 {
-printf("a:%d is the largest",a);
+printf("%d" ,a);
 }
 else if(b>c)
 {
-printf("b:%d is the largest",b);
+printf("%d",b);
 }
 else
-printf("c:%d is the largest",c);
+printf("%d",c);
 return 0;
 }
